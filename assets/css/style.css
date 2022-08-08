@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: #000000;
 }
 
 a {
@@ -416,7 +417,7 @@ h6 {
   position: absolute;
   bottom: 0;
   top: 0;
-  left: 0;
+  left: 600px;
   right: 0;
   display: flex;
   justify-content: center;
@@ -431,7 +432,7 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: rgb(255, 0, 0);
+  color: rgb(235, 234, 250);
 }
 
 #hero h2 {
@@ -531,6 +532,10 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about .about-container {
+  background-color: #000000;
+}
+
 .about .box-heading h4 {
   font-size: 13px;
   letter-spacing: 1px;
@@ -603,10 +608,10 @@ section {
   font-size: 14px;
 }
 
-.about .video-box {
-  background: url("../img/about.jpg") center center no-repeat;
-  background-size: cover;
-  min-height: 400px;
+.about .img{
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
 }
 
 .about .play-btn {
